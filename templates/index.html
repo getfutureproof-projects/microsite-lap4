@@ -1,7 +1,29 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>
-    This is futureproof
-  </h1>
+<style>
+  .monia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #3c2157;
+    color: white;
+  }
+</style>
+<div class="row vh-100 monia">
+  <div class="container">
+    <div>
+      <h1>
+        This is futureproof
+      </h1>
+      <ul>
+        check our api
+        <li><a href="/skills">/skills</a></li>
+        <li><a href="/future">/future</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 {% endblock %}
