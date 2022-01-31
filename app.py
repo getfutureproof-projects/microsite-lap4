@@ -30,4 +30,4 @@ def handle_server_error(err):
     return jsonify({"message": f"{err}. It's not you, it's us. Press F to pay respects"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
